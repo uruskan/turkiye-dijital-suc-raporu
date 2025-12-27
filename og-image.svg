@@ -1,0 +1,54 @@
+<svg width="1200" height="630" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0e17"/>
+      <stop offset="100%" style="stop-color:#1e293b"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#3b82f6"/>
+      <stop offset="100%" style="stop-color:#22d3ee"/>
+    </linearGradient>
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff"/>
+      <stop offset="100%" style="stop-color:#94a3b8"/>
+    </linearGradient>
+    <pattern id="grid" width="60" height="60" patternUnits="userSpaceOnUse">
+      <path d="M 60 0 L 0 0 0 60" fill="none" stroke="rgba(59,130,246,0.08)" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#grid)"/>
+
+  <!-- Decorative corners -->
+  <path d="M 40 40 L 40 100 M 40 40 L 100 40" stroke="rgba(59,130,246,0.3)" stroke-width="2" fill="none"/>
+  <path d="M 1160 40 L 1160 100 M 1160 40 L 1100 40" stroke="rgba(59,130,246,0.3)" stroke-width="2" fill="none"/>
+  <path d="M 40 590 L 40 530 M 40 590 L 100 590" stroke="rgba(59,130,246,0.3)" stroke-width="2" fill="none"/>
+  <path d="M 1160 590 L 1160 530 M 1160 590 L 1100 590" stroke="rgba(59,130,246,0.3)" stroke-width="2" fill="none"/>
+
+  <!-- TLP Badge -->
+  <rect x="510" y="80" width="180" height="36" rx="4" fill="#ffffff"/>
+  <text x="600" y="105" font-family="monospace" font-size="14" font-weight="bold" fill="#0f172a" text-anchor="middle" letter-spacing="3">TLP:CLEAR</text>
+
+  <!-- Doc type -->
+  <text x="600" y="180" font-family="monospace" font-size="14" fill="#64748b" text-anchor="middle" letter-spacing="6">TEHDİT İSTİHBARAT RAPORU</text>
+
+  <!-- Main Title -->
+  <text x="600" y="270" font-family="Arial, sans-serif" font-size="56" font-weight="bold" fill="url(#textGrad)" text-anchor="middle">TÜRKİYE DİJİTAL</text>
+  <text x="600" y="340" font-family="Arial, sans-serif" font-size="56" font-weight="bold" fill="url(#textGrad)" text-anchor="middle">SUÇ EKOSİSTEMİ</text>
+
+  <!-- Divider -->
+  <line x1="400" y1="380" x2="550" y2="380" stroke="url(#accent)" stroke-width="2"/>
+  <rect x="570" y="372" width="16" height="16" fill="#3b82f6" transform="rotate(45 578 380)"/>
+  <line x1="650" y1="380" x2="800" y2="380" stroke="url(#accent)" stroke-width="2"/>
+
+  <!-- Topics -->
+  <text x="600" y="440" font-family="monospace" font-size="16" fill="#93c5fd" text-anchor="middle">Yasadışı Bahis • Sextortion • Deepfake • Fintech Suistimali</text>
+  <text x="600" y="470" font-family="monospace" font-size="16" fill="#93c5fd" text-anchor="middle">MITRE ATT&amp;CK Mapping • IOC Database • Detection Rules</text>
+
+  <!-- Author section -->
+  <line x1="300" y1="510" x2="900" y2="510" stroke="rgba(59,130,246,0.2)" stroke-width="1"/>
+  <text x="600" y="560" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#f1f5f9" text-anchor="middle">Umut Piynar</text>
+  <text x="600" y="590" font-family="Arial, sans-serif" font-size="18" fill="#60a5fa" text-anchor="middle">Cyber Security Researcher • 2025</text>
+</svg>
